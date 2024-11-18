@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "br.edu.ifsp.dmo1.conversortemperatura"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "br.edu.ifsp.dmo1.conversortemperatura"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -34,12 +34,11 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
-        viewBinding = true;
+        viewBinding = true
     }
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
